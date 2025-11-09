@@ -1,0 +1,17 @@
+# Ignore environments and system folders
+venv/
+myenv/
+.vscode/
+__pycache__/
+cache/
+blockverse-react/
+
+# Ignore data and model files (they’re too big)
+*.pkl
+*.csv
+*.geojson
+*.html
+
+# Logs and notebooks
+*.log
+.ipynb_checkpoints/
