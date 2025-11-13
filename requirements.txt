@@ -4,7 +4,7 @@
 # Core Machine Learning
 scikit-learn==1.3.2
 pandas==2.1.4
-numpy==1.25.2
+numpy==1.26.4
 
 # Geospatial Data Processing
 geopandas==0.14.1
@@ -31,7 +31,7 @@ rtree==1.1.0
 contextily==1.4.0
 
 # Optional: For model interpretation
-shap==0.43.0
+#shap==0.43.0
 
 # Development Tools
 jupyter==1.0.0
