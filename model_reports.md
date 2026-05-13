@@ -1,6 +1,6 @@
-Model Evaluation Results
+## Model Evaluation Results
 
-Logistic Regression
+## Logistic Regression
 
 | Class  | Precision | Recall | F1-Score | Support |
 |--------|-----------|--------|----------|---------|
@@ -13,7 +13,7 @@ Logistic Regression
 
 ---
 
-Random Forest
+## Random Forest
 
 | Class  | Precision | Recall | F1-Score | Support |
 |--------|-----------|--------|----------|---------|
@@ -26,14 +26,14 @@ Random Forest
 
 ---
 
-Comparison Summary
+## Comparison Summary
 
 | Model               | Accuracy | ROC-AUC | Safe F1 | Unsafe F1 |
 |---------------------|----------|---------|---------|-----------|
 | Logistic Regression | 63%      | 0.628   | 0.73    | 0.41      |
 | **Random Forest**   | **72%**  | **0.776**| **0.78**| **0.64**  |
 
-Why Random Forest Was Selected?
+## Why Random Forest Was Selected?
 - 9% higher accuracy over Logistic Regression
 - ROC-AUC improved from 0.628 → 0.776 (+23%)
 - Unsafe class F1 improved from 0.41 → 0.64 — critical for 
